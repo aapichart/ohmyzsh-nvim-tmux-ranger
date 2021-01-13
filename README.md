@@ -1,4 +1,4 @@
-#This is the neccessary configuration for ohmyzsh, nvim, tmux, ranger(cli file explorer)
+[#This](#This) is the neccessary configuration for ohmyzsh, nvim, tmux, ranger(cli file explorer)
   1.ohmyzsh
   2.nvim
   3.tmux
