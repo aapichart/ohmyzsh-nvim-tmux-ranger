@@ -22,4 +22,8 @@
     > sudo apt install ranger
  
   6.fzf 
+    > git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+    
+    > ~/.fzf/install
+    
     information -> https://codeyarns.com/tech/2017-10-24-how-to-install-and-use-fzf.html

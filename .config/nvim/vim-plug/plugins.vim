@@ -8,6 +8,8 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+  " Add Coc plugin
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
   " Change dates fast
   Plug 'tpope/vim-speeddating'
   " Convert binary, hex, etc..
@@ -46,8 +48,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'alvan/vim-closetag'
     " Add onedark
     Plug 'joshdick/onedark.vim'
-    " Add Coc plugin
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Status Line
     Plug 'vim-airline/vim-airline'
     " Plug 'vim-airline/vim-airline-themes'
