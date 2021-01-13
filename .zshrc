@@ -147,3 +147,5 @@ source ~/.config/nvim/autoload/plugged/fzf/shell/completion.zsh
 alias python=python3
 eval "$(pipenv  --completion)"
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
