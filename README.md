@@ -5,4 +5,4 @@
   4.ranger
   5.fzf 
     information -> https://codeyarns.com/tech/2017-10-24-how-to-install-and-use-fzf.html
-    
+  6.    
