@@ -1,1 +1,10 @@
-{"dependencies":{}}
+{
+  "dependencies": {
+    "coc-eslint": ">=1.4.4",
+    "coc-explorer": ">=0.14.0",
+    "coc-pairs": ">=1.2.21",
+    "coc-prettier": ">=1.1.20",
+    "coc-snippets": ">=2.3.1",
+    "coc-tsserver": ">=1.6.7"
+  }
+}

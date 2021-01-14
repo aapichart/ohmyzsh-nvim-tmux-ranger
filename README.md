@@ -1,4 +1,4 @@
-[#This](#This) is the neccessary configuration for ohmyzsh, nvim, tmux, ranger(cli file explorer)
+[#This](#This)](#This) is the neccessary configuration for ohmyzsh, nvim, tmux, ranger(cli file explorer)
 
   1.ohmyzsh
     > sudo apt install curl zsh
