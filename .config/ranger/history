@@ -1,0 +1,10 @@
+search init.vim
+search file init.vim
+search init
+search init -f
+search -f
+search
+search 
+open_with nvim
+delete
+
