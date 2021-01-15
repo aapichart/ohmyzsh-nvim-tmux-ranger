@@ -27,9 +27,20 @@
     > git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
     
     > ~/.fzf/install
-
+    > build fd first
+    > wget https://github.com/sharkdp/fd/releases/download/v7.3.0/fd-musl_7.3.0_amd64.deb
+    > sudo dpkg -i fd-musl_7.3.0_amd64.deb
+    
     > Then put this command into .zshrc file for autoload
     > [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
     > export FZF_DEFAULT_OPS="--extended"
+    > export FZF_DEFAULT_COMMAND="fd --type f"
+    > export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+
+    information ->  https://codeyarns.com/tech/2017-10-24-how-to-install-and-use-fzf.html
     
-    information -> https://codeyarns.com/tech/2017-10-24-how-to-install-and-use-fzf.html
+  7.ripgrep -> (rg) searching app for using with fzf
+    > sudo add-apt-repository ppa:x4121/ripgrep
+    > sudo apt-get update
+    > sudo apt-get install ripgrep
+    
