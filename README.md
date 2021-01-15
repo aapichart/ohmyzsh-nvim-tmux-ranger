@@ -1,4 +1,4 @@
-[#This](#This)](#This) is the neccessary configuration for ohmyzsh, nvim, tmux, ranger(cli file explorer)
+#This is the neccessary configuration for ohmyzsh, nvim, tmux, ranger(cli file explorer)
 
   0.Install font - from the here (https://github.com/ryanoasis/nerd-fonts.git)
   
@@ -34,7 +34,7 @@
     > Then put this command into .zshrc file for autoload
     > [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
     > export FZF_DEFAULT_OPS="--extended"
-    > export FZF_DEFAULT_COMMAND="fd --type f"
+    > export FZF_DEFAULT_COMMAND="rg --files --no-ignore-vcs --hidden"
     > export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
     information ->  https://codeyarns.com/tech/2017-10-24-how-to-install-and-use-fzf.html
