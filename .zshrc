@@ -138,14 +138,18 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 export PATH="/home/apichart/miniconda3/bin:$PATH"
 
 #export variable for nvim
-  export MYVIMRC=$HOME/.config/nvim/init.vim
-  export PATH=/usr/local/bin:$PATH
+export MYVIMRC=$HOME/.config/nvim/init.vim
+export PATH=/usr/local/bin:$PATH
 #source command for fzf keybinding
 source ~/.config/nvim/autoload/plugged/fzf/shell/key-bindings.zsh
 source ~/.config/nvim/autoload/plugged/fzf/shell/completion.zsh 
+#source command for ranger merge with fzf
 
+export PATH="/home/apichart/.local/bin:$PATH"
 alias python=python3
 eval "$(pipenv  --completion)"
 
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export FZF_DEFAULT_OPS="--extended"
+export FZF_DEFAULT_COMMAND="rg --files --no-ignore-vcs --hidden"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
