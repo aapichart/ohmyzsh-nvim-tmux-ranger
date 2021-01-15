@@ -50,3 +50,17 @@ endif
 
 " This will disable startup warning message if nvim is older than version 0.4
 let g:coc_disable_startup_warning=1
+
+" settting for coc
+let g:coc_global_extensions = [
+      \ 'coc-css',
+      \ 'coc-eslint',
+      \ 'coc-html',
+      \ 'coc-json',
+      \ 'coc-prettier',
+      \ 'coc-python',
+      \ 'coc-tslint',
+      \ 'coc-tsserver',
+      \ 'coc-ultisnips',
+      \ 'coc-tailwindcss',
+      \ 'coc-vetur' ]
