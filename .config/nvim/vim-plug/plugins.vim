@@ -20,10 +20,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'tpope/vim-repeat'
   " Surround
   Plug 'tpope/vim-surround'
-  " Better Comments
-  " Plug 'tpope/vim-commentary'
-  " Have the file system follow you around
-  Plug 'preservim/nerdcommenter'
+  "Language Plugin"
+  Plug 'HerringtonDarkHolme/yats'
+  "Better Comments
+  Plug 'scrooloose/nerdcommenter'
+  Plug 'airblade/vim-gitgutter'
   Plug 'airblade/vim-rooter'
   " auto set indent settings
   Plug 'tpope/vim-sleuth'
