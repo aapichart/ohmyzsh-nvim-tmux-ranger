@@ -49,3 +49,6 @@
     > It will automatically install 5-6 more extentions listed in ~/.config/nvim/general/setting.vim
     > ex. coc-prettier, coc-eslint, coc-json, coc-vim
     > We can manual install it on vim by using vim commane ":CocInstall coc-prettier"
+    > 
+    > In order to set coc-prettier and coc-eslint, please take a look at this url
+    > https://dev.to/viclafouch/publish-your-own-eslint-prettier-config-for-react-projects-on-npm-g3p
