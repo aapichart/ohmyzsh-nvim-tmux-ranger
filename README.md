@@ -39,12 +39,16 @@
 
     information ->  https://codeyarns.com/tech/2017-10-24-how-to-install-and-use-fzf.html
     
-  7.ripgrep -> (rg) searching app for using with fzf
+  7.Install pip and virtualenv
+    > sudo apt install python3-pip
+    > pip3 install virtualenv
+    
+  8.ripgrep -> (rg) searching app for using with fzf
     > sudo add-apt-repository ppa:x4121/ripgrep
     > sudo apt-get update
     > sudo apt-get install ripgrep
   
-  8. coc-vim
+  9.coc-vim
     > This is a plugin in nvim (written by nodejs)
     > It will automatically install 5-6 more extentions listed in ~/.config/nvim/general/setting.vim
     > ex. coc-prettier, coc-eslint, coc-json, coc-vim
