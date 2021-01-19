@@ -7,9 +7,12 @@
     
     > sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-  2.nvim
+  2.nvim (This package need 0.3 or above)
+    > sudo add-apt-repository ppa:neovim-ppa/stable
+    > sudo apt update
     > sudo apt install neovim
-
+    > nvim -version (This should show version above 0.3)
+    
   3.nodejs - (in order to use neoclide/coc.vim package, we need nodejs newer than version 10)
     > curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
     
