@@ -59,8 +59,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
     "Plugin for tbone for sending any text between tmux windows and pane
     Plug 'tpope/vim-tbone'
-    " Plugin for TMux
-    Plug 'christoomey/vim-tmux-navigator'
     " FZF
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
