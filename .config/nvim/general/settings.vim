@@ -48,7 +48,6 @@ if !exists('g:vscode')
   cmap w!! w !sudo tee %
 endif
 
-" This will disable startup warning message if nvim is older than version 0.4
 let g:coc_disable_startup_warning=1
 
 " settting for coc
@@ -64,3 +63,5 @@ let g:coc_global_extensions = [
       \ 'coc-ultisnips',
       \ 'coc-tailwindcss',
       \ 'coc-vetur' ]
+" setting for coc-prettier
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
