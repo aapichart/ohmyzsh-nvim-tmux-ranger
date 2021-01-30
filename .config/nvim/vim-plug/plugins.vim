@@ -57,8 +57,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'rbgrouleff/bclose.vim'
     " Terminal
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
-    "Plugin tslime
-    Plug 'jgdavey/tslime'
    " FZF
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
@@ -66,6 +64,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
+    "Plugin tslime
+    Plug 'LnL7/vim-tslime'
     " Terminal
     Plug 'voldikss/vim-floaterm'
     " Start Screen
