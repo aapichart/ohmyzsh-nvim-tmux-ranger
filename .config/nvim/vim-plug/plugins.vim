@@ -65,7 +65,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
     "Plugin tslime
-    Plug 'LnL7/vim-tslime'
+    Plug 'jgdavey/tslime.vim'
     " Terminal
     Plug 'voldikss/vim-floaterm'
     " Start Screen
