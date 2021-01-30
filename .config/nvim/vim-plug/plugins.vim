@@ -57,9 +57,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'rbgrouleff/bclose.vim'
     " Terminal
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
-    "Plugin for tbone for sending any text between tmux windows and pane
-    Plug 'tpope/vim-tbone'
-    " FZF
+    "Plugin tslime
+    Plug 'jgdavey/tslime'
+   " FZF
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
     Plug 'airblade/vim-gitgutter'
