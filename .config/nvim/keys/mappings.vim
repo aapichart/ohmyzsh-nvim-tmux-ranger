@@ -77,15 +77,15 @@ let g:slime_python_ipython = 1
 xmap <C-c><C-s> <Plug>SlimeRegionSend
 nmap <C-c><C-s> <Plug>SlimeParagraphSend
 " Setting for vim-floaterm 
-nnoremap   <silent>   <F9>    :FloatermNew --height=0.4 --width=0.98 --wintype=floating --position=bottom --autoclose=2 --title=
-tnoremap   <silent>   <F9>    <C-\><C-n>:FloatermNew --height=0.4 --width=0.98 --wintype=floating --position=bottom --autoclose=2 --title=
-nnoremap   <silent>   <F8>    :FloatermPrev<CR>
-tnoremap   <silent>   <F8>    <C-\><C-n>:FloatermPrev<CR>
-nnoremap   <silent>   <F10>    :FloatermNext<CR>
-tnoremap   <silent>   <F10>    <C-\><C-n>:FloatermNext<CR>
-inoremap   <silent>   <F11>   <C-c>:FloatermToggle<CR>
-nnoremap   <silent>   <F11>   :FloatermToggle<CR>
-tnoremap   <silent>   <F11>   <C-\><C-n>:FloatermToggle<CR>
+nnoremap   <silent>   <F10>    :FloatermNew --height=0.4 --width=0.98 --wintype=floating --position=bottom --autoclose=2 --title=
+tnoremap   <silent>   <F10>    <C-\><C-n>:FloatermNew --height=0.4 --width=0.98 --wintype=floating --position=bottom --autoclose=2 --title=
+nnoremap   <silent>   <F9>    :FloatermPrev<CR>
+tnoremap   <silent>   <F9>    <C-\><C-n>:FloatermPrev<CR>
+nnoremap   <silent>   <F8>    :FloatermNext<CR>
+tnoremap   <silent>   <F8>    <C-\><C-n>:FloatermNext<CR>
+inoremap   <silent>   <F7>   <C-c>:FloatermToggle<CR>
+nnoremap   <silent>   <F7>   :FloatermToggle<CR>
+tnoremap   <silent>   <F7>   <C-\><C-n>:FloatermToggle<CR>
 tnoremap   <silent>   <M-o>   <C-\><C-n><CR>
 
 nnoremap   <C-c><C-c> :FloatermSend<CR>

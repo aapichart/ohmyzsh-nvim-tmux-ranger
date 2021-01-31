@@ -28,6 +28,7 @@
     "yaml",
     "json",
     "python"
+    "sql"
   ],
   "coc.preferences.hoverTarget": "float",
 
