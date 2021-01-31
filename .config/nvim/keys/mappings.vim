@@ -69,9 +69,24 @@ else
   nnoremap <silent> <M-l>    :vertical resize +2<CR>
 endif
 
-"Setting map key for tslime Key for Tmux = \t
-vmap \t <Plug>SendSelectionToTmux
-nmap \t <Plug>NormalModeSendToTmux
-nmap \<r <Plug>SetTmuxVars
-let g:tslime_ensure_trailing_newlines=1
+"Setting for vim-slime working with tmux
+let g:slime_no_mappings = 1
+let g:slime_target = 'tmux'
+let g:slime_paste_file = '$HOME/.slime_paste'
+let g:slime_python_ipython = 1
+xmap <C-c><C-s> <Plug>SlimeRegionSend
+nmap <C-c><C-s> <Plug>SlimeParagraphSend
+" Setting for vim-floaterm 
+nnoremap   <silent>   <F9>    :FloatermNew --height=0.4 --width=0.98 --wintype=floating --position=bottom --autoclose=2 --title=
+tnoremap   <silent>   <F9>    <C-\><C-n>:FloatermNew --height=0.4 --width=0.98 --wintype=floating --position=bottom --autoclose=2 --title=
+nnoremap   <silent>   <F8>    :FloatermPrev<CR>
+tnoremap   <silent>   <F8>    <C-\><C-n>:FloatermPrev<CR>
+nnoremap   <silent>   <F10>    :FloatermNext<CR>
+tnoremap   <silent>   <F10>    <C-\><C-n>:FloatermNext<CR>
+inoremap   <silent>   <F11>   <C-c>:FloatermToggle<CR>
+nnoremap   <silent>   <F11>   :FloatermToggle<CR>
+tnoremap   <silent>   <F11>   <C-\><C-n>:FloatermToggle<CR>
+tnoremap   <silent>   <M-o>   <C-\><C-n><CR>
 
+nnoremap   <C-c><C-c> :FloatermSend<CR>
+vnoremap   <C-c><C-c> :FloatermSend<CR>

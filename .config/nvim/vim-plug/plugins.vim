@@ -64,8 +64,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
-    "Plugin tslime
-    Plug 'jgdavey/tslime.vim'
+    "Plug for sending text to tmux other pane
+    Plug 'jpalardy/vim-slime'
     " Terminal
     Plug 'voldikss/vim-floaterm'
     " Start Screen
