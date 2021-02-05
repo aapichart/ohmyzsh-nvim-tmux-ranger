@@ -74,8 +74,9 @@ let g:slime_no_mappings = 1
 let g:slime_target = 'tmux'
 let g:slime_paste_file = '$HOME/.slime_paste'
 let g:slime_python_ipython = 1
-xmap <C-c><C-s> <Plug>SlimeRegionSend
-nmap <C-c><C-s> <Plug>SlimeParagraphSend
+let g:slime_default_config = {"socket_name": "default", "target_pane": "{last}"} 
+xmap <C-m> <Plug>SlimeRegionSend
+nmap <C-m> <Plug>SlimeParagraphSend
 " Setting for vim-floaterm 
 nnoremap   <silent>   <F10>    :FloatermNew --height=0.4 --width=0.98 --wintype=floating --position=bottom --autoclose=2 --title=
 tnoremap   <silent>   <F10>    <C-\><C-n>:FloatermNew --height=0.4 --width=0.98 --wintype=floating --position=bottom --autoclose=2 --title=
