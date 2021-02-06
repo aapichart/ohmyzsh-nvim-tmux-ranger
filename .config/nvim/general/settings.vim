@@ -51,6 +51,10 @@ endif
 let g:coc_disable_startup_warning=1
 
 " settting for coc
+
+" This is the setting for json Comment at coc-settings.json 
+autocmd FileType json syntax match Comment +\/\/.\+$+
+
 let g:coc_global_extensions = [
       \ 'coc-css',
       \ 'coc-eslint',

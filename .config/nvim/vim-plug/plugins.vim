@@ -78,7 +78,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/goyo.vim'
     Plug 'metakirby5/codi.vim'
     Plug 'https://github.com/vimwiki/vimwiki.git'
-endif
+    " Coc languange server installation
+    Plug 'mads-hartmann/bash-language-server'
+    Plug 'rcjsuen/dockerfile-language-server-nodejs'
+    Plug 'bmewburn/intelephense-docs'
+  endif
 
 call plug#end()
 

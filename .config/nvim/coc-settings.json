@@ -27,8 +27,9 @@
     "html",
     "yaml",
     "json",
-    "python"
-    "sql"
+    "python",
+    "sql",
+    "bash",
   ],
   "coc.preferences.hoverTarget": "float",
 
@@ -57,7 +58,30 @@
       "ignoredRootPaths": ["~"]
     }
   }
-
+  "languageserver": {
+    "dockerfile": {
+      "command": "docker-langserver",
+      "filetypes": ["dockerfile"],
+      "args": ["--stdio"]
+    }
+  }
+  "languageserver": {
+  "intelephense": {
+    "command": "intelephense",
+    "args": ["--stdio"],
+    "filetypes": ["php"],
+    "initializationOptions": {
+      "storagePath": "/tmp/intelephense"
+    }
+  }
+  "languageserver": {
+  "sql": {
+    "command": "sql-language-server",
+    "args" : ["up", "--method", "stdio"],
+    "filetypes": ["sql", "mysql"]
+    }
+  }
+}
   // TODO language servers
   // TODO g:coc_global_extensions
   // TODO b:coc_suggest_disable=1 GOYO
