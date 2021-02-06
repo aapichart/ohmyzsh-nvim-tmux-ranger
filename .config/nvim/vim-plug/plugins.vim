@@ -82,6 +82,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mads-hartmann/bash-language-server'
     Plug 'rcjsuen/dockerfile-language-server-nodejs'
     Plug 'bmewburn/intelephense-docs'
+    Plug 'autozimu/LanguageClient-neovim', {
+    \ 'branch': 'next',
+    \ 'do': 'bash install.sh',
+    \ }
   endif
 
 call plug#end()
